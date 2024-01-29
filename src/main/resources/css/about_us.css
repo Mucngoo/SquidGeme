@@ -230,7 +230,7 @@ p{
     font-size: 40px;
     color: white;
     text-shadow: 0px 0px 145px #b3b3b3;
-    padding: 30px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 .abc{
     display: flex; 
@@ -245,13 +245,36 @@ p{
     display: flex;
     flex-direction: row;
     gap: 50px;
-
 }
 .squid {
     border-radius: 18px;
     border: 1px solid rgb(255, 255, 255);
     height: 300px;
     width: 200px;
+}
+.squidpersona{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px 30px 60px;
+    border-radius: 15px;
+    gap: 50px;
+    margin-bottom: 100px;
+    border: 1px solid rgba(41, 213, 210, 0.563);
+    background: rgb(44,107,136);
+    background: linear-gradient(60deg, rgba(44,107,136,0.499124649859944) 0%, rgba(0,0,0,0.364670868347339) 39%, rgba(0,0,0,0.46271008403361347) 56%, rgba(31,117,54,0.3478641456582633) 100%);
+}
+.persona{
+    border-radius: 18px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 400px;
+    width: 300px;
+}
+.squidodd{
+    justify-content: flex-end;
+}
+.persona-wrap{
+    display: flex;
+    flex-direction: row;
 }
 
 footer {
